@@ -78,7 +78,7 @@ We further analyze the impact of different types of visual content and image pos
 
 🚨🚨 The leaderboard is continuously being updated. 
 
-If you want to upload your model's results to the Leaderboard, please send an email to [Hongyu Wang](hongyu.wang@vipl.ict.ac.cn) and [Ruiping Wang](wangruiping@ict.ac.cn).
+If you want to upload your model's results to the Leaderboard, please send an email to [Hongyu Wang](mailto:hongyu.wang@vipl.ict.ac.cn) and [Ruiping Wang](mailto:wangruiping@ict.ac.cn).
 
 The evaluation instructions are available at [🔮 Evaluations on M4U](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#-evaluations-on-m4u).
 
@@ -206,7 +206,7 @@ python calculate_scores.py \
 
 ### Evaluating OpenAI Models
 
-Replace "/your/api/key" in [evaluate_gpt4o.py]() with your personal key. Then generate the response of GPT-4o:
+Replace "/your/api/key" in [evaluate_gpt4o.py](https://github.com/M4U-Benchmark/M4U/blob/a805dec1c6cf9347ee0e9b63cfbfbca0fd1080b9/evaluate_gpt4o.py#L17) with your personal key. Then generate the response of GPT-4o:
 ```sh
 python evaluate_gpt4o.py \
   --model gpt-4o \
