@@ -231,7 +231,7 @@ If you find **M4U** useful for your research and applications, please kindly cit
 ```latex
 @article{wang2024m4u,
   title={M4U: Evaluating Multilingual Understanding and Reasoning for Large Multimodal Models},
-  author={Hongyu Wang, Jiayu Xu, Senwei Xie, Ruiping Wang, Jialin Li, Zhaojie Xie, Bin Zhang, Chuyan Xiong, Xilin Chen},
+  author={Hongyu Wang and Jiayu Xu and Senwei Xie and Ruiping Wang and Jialin Li and Zhaojie Xie and Bin Zhang and Chuyan Xiong and Xilin Chen},
   month={May},
   year={2024}
 }
