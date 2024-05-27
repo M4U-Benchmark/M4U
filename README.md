@@ -9,7 +9,7 @@
 
 Code for the Paper M4U: Evaluating Multilingual Understanding and Reasoning for Large Multimodal Models.
 
-[[Webpage](https://m4u-benchmark.github.io/m4u.github.io/)] [[Paper](https://m4u-benchmark.github.io/m4u.github.io/)] [[Huggingface Dataset](https://huggingface.co/datasets/M4U-Benchmark/M4U)] [[Leaderboard](https://m4u-benchmark.github.io/m4u.github.io/)]
+[[Webpage](https://m4u-benchmark.github.io/m4u.github.io/)] [[Paper](http://arxiv.org/abs/2405.15638)] [[Huggingface Dataset](https://huggingface.co/datasets/M4U-Benchmark/M4U)] [[Leaderboard](https://m4u-benchmark.github.io/m4u.github.io/)]
 
 <p align="center">
     <img src="images/logo.png" width=20%"> <br>
@@ -37,7 +37,7 @@ Code for the Paper M4U: Evaluating Multilingual Understanding and Reasoning for 
 
 ## 💥 News 💥
 
-- **[2024.05.23]** Our [paper]() and [dataset](https://huggingface.co/datasets/M4U-Benchmark/M4U) are public aviailable.
+- **[2024.05.23]** Our [paper](http://arxiv.org/abs/2405.15638) and [dataset](https://huggingface.co/datasets/M4U-Benchmark/M4U) are public aviailable.
 
 ## 👀 About M4U
 
