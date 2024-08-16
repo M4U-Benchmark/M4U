@@ -250,7 +250,7 @@ To further analyze performance of MLLMs on different disciplines, we provided st
 
 ### Resolution of Images in M4U
 
-To verify auality of images provided in M4U, we visualized the distribution of diagonal pixels in the images. The median of diagonal pixels is 551, and the average is 616. The distribution is shown below.
+We visualized the distribution of diagonal pixels in the images for M4U. The median of diagonal pixels is 551, and the average is 616. The distribution is shown below.
 
 <p align="center">
     <img src="images/resolution_sqrt.png" width="80%"> <br>
