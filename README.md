@@ -18,12 +18,12 @@ Code for the Paper M4U: Evaluating Multilingual Understanding and Reasoning for 
 
 ## Outlines
 
-- [🎨 M4U-mini]()
-  - [Evaluation on M4U-mini]()
-  - [Evaluation results]()
-- [📖 Dataset Usage]()
-- [✅ Cite]()
-- [🧠 Acknowledgments]()
+- [🎨 M4U-mini](https://github.com/M4U-Benchmark/M4U/tree/m4u-mini?tab=readme-ov-file#-m4u-mini)
+  - [Evaluation on M4U-mini](https://github.com/M4U-Benchmark/M4U/tree/m4u-mini?tab=readme-ov-file#evaluation-on-m4u-mini)
+  - [Evaluation results](https://github.com/M4U-Benchmark/M4U/tree/m4u-mini?tab=readme-ov-file#evaluation-results)
+- [📖 Dataset Usage](https://github.com/M4U-Benchmark/M4U/tree/m4u-mini?tab=readme-ov-file#-dataset-usage)
+- [✅ Cite](https://github.com/M4U-Benchmark/M4U/tree/m4u-mini?tab=readme-ov-file#-cite)
+- [🧠 Acknowledgments](https://github.com/M4U-Benchmark/M4U/tree/m4u-mini?tab=readme-ov-file#-acknowledgments)
 
 ## 🎨 M4U-mini
 
