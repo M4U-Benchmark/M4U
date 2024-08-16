@@ -31,7 +31,7 @@ To support more languages, we have constructed a tiny version of M4U with three 
 
 ### Evaluation on M4U-mini
 
-The evaluation pipeline of M4U-mini is consistent with M4U. You can generate the response of GPT-4o on M4U-mini, then calculate the scores following [these instructions](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#evaluating-openai-models)
+The evaluation pipeline of M4U-mini is consistent with M4U. You can generate the response of GPT-4o on M4U-mini, then calculate the scores following [these instructions](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#evaluating-openai-models).
 ```sh
 python evaluate_gpt4o.py \
   --model gpt-4o \
@@ -60,7 +60,7 @@ The format of M4U-mini is consistent with M4U. First, make sure that you have su
 pip install datasets
 ```
 
-Then you can easily download this dataset from Huggingface.
+Then you can easily download this dataset from [Huggingface](https://huggingface.co/datasets/M4U-Benchmark/M4U-mini).
 ```python
 from datasets import load_dataset
 
