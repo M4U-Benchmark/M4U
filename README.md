@@ -30,9 +30,9 @@ Code for the Paper M4U: Evaluating Multilingual Understanding and Reasoning for 
 - [🔮 Evaluations on M4U](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#-evaluations-on-m4u)
   - [Evaluating LLaVA](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#evaluating-llava)
   - [Evaluating OpenAI Models](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#evaluating-openai-models)
-- [📊 Statistics]()
-  - [GPT-4o's Performance on Different Discipline]()
-  - [Resolution of Images in M4U]()   
+- [📊 Statistics](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#-statistics)
+  - [GPT-4o's Performance on Different Discipline](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#gpt-4os-performance-on-different-discipline)
+  - [Resolution of Images in M4U](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#resolution-of-images-in-m4u)   
 - [✅ Cite](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#-cite)
 - [🧠 Acknowledgments](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#-acknowledgments)
 
