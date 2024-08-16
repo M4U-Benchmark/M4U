@@ -80,7 +80,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="gpt-4o")
     parser.add_argument("--field", type=str, default="all", help="['all', 'science', 'engineering', 'healthcare']")
-    parser.add_argument("--lang", type=str, default="all", help="['all', 'en', 'zh', 'de']")
+    parser.add_argument("--lang", type=str, default="['en', 'de']", help="['all', 'en', 'zh', 'de', 'ar', 'th', 'ja']")
     parser.add_argument("--seed", type=int, default=42, help="random seed")
     parser.add_argument("--result_folder", type=str, default="./gpt4o", help="")
     args = parser.parse_args()
@@ -89,10 +89,10 @@ if __name__ == "__main__":
     os.makedirs(args.result_folder, exist_ok=True)
 
     eval_fields = ['science', 'engineering', 'healthcare'] if args.field == "all" else args.field.split(",")
-    eval_langs = ['en', 'zh', 'de'] if args.lang == "all" else args.lang.split(",")
+    eval_langs = ['en', 'zh', 'de', 'ar', 'th', 'ja'] if args.lang == "all" else args.lang.split(",")
 
     model = args.model
-    dataset = load_dataset("M4U-Benchmark/M4U")
+    dataset = load_dataset("M4U-Benchmark/M4U-mini")
 
     for lang in eval_langs:
         for field in eval_fields:

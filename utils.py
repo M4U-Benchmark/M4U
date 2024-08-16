@@ -74,6 +74,11 @@ def parse_multi_choice_response(response, all_choices, index2ans):
         for choice in all_choices: # e.g., A B C D
             if f' {choice} ' in response:
                 candidates.append(choice)
+    
+    if len(candidates) == 0:
+        for choice in all_choices: # e.g., **A** **B** **C** **D**
+            if f'**{choice}**' in response:
+                candidates.append(choice)
 
     # if all above doesn't get candidates, check if the content is larger than 5 tokens and try to parse the example
     if len(candidates) == 0 and len(response.split()) > 5:

@@ -25,7 +25,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", type=str, default="liuhaotian/llava-v1.6-34b")
     parser.add_argument("--conv_mode", type=str, default="chatml_direct")
     parser.add_argument("--field", type=str, default='all', help="['all', 'science', 'engineering', 'healthcare']")
-    parser.add_argument("--lang", type=str, default="all", help="['all', 'en', 'zh', 'de']")
+    parser.add_argument("--lang", type=str, default="all", help="['all', 'en', 'zh', 'de', 'ar', 'th', 'ja']")
     parser.add_argument("--seed", type=int, default=42, help="random seed")
     parser.add_argument("--result_folder", type=str, default="", help="")
     args = parser.parse_args()
@@ -33,9 +33,9 @@ if __name__ == "__main__":
     setup_seed(args.seed)
     os.makedirs(args.result_folder, exist_ok=True)
 
-    dataset = load_dataset("M4U-Benchmark/M4U")
+    dataset = load_dataset("M4U-Benchmark/M4U-mini")
     eval_fields = ['science', 'engineering', 'healthcare'] if args.field == "all" else args.field.split(",")
-    eval_langs = ['en', 'zh', 'de'] if args.lang == "all" else args.lang.split(",")
+    eval_langs = ['en', 'zh', 'de', 'ar', 'th', 'ja'] if args.lang == "all" else args.lang.split(",")
 
     model_path = args.model
     conv_mode = args.conv_mode
