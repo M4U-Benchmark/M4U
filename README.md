@@ -30,6 +30,9 @@ Code for the Paper M4U: Evaluating Multilingual Understanding and Reasoning for 
 - [🔮 Evaluations on M4U](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#-evaluations-on-m4u)
   - [Evaluating LLaVA](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#evaluating-llava)
   - [Evaluating OpenAI Models](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#evaluating-openai-models)
+- [📊 Statistics]()
+  - [GPT-4o's Performance on Different Discipline]()
+  - [Resolution of Images in M4U]()   
 - [✅ Cite](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#-cite)
 - [🧠 Acknowledgments](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#-acknowledgments)
 
@@ -37,6 +40,7 @@ Code for the Paper M4U: Evaluating Multilingual Understanding and Reasoning for 
 
 ## 💥 News 💥
 
+- **[2024.08.16]** [M4U-mini](https://huggingface.co/datasets/M4U-Benchmark/M4U-mini) is public aviailable, which is our first step to extend M4U for more languages. M4U-mini is a tiny subset (5%) of M4U with the support for Japanese, Arabic and Thai.
 - **[2024.05.23]** Our [paper](http://arxiv.org/abs/2405.15638) and [dataset](https://huggingface.co/datasets/M4U-Benchmark/M4U) are public aviailable.
 
 ## 👀 About M4U
@@ -212,7 +216,7 @@ python evaluate_gpt4o.py \
   --model gpt-4o \
   --field all \
   --lang all \
-  --result_folder ./gpt_4o
+  --result_folder ./result/M4U/gpt4o
 ```
 
 Calculate the final scores:
@@ -221,8 +225,36 @@ Calculate the final scores:
 python calculate_scores.py \
   --field all \
   --lang all \
-  --result_folder ./gpt_4o
+  --result_folder ./result/M4U/gpt4o
 ```
+
+## 📊 Statistics
+
+We depict some critical statistical results on this section, including detailed statistics of GPT-4o's performance on different discipline and language, and visualization of image quality. These detailed statistics will also help understanding and further analysis for M4U.
+
+### GPT-4o's Performance on Different Discipline
+
+To further analyze performance of MLLMs on different disciplines, we provided statistics of GPT-4o's performance on 64 different disciplines in M4U. These three figures shown results of GPT-4o on Chinese, English, and German. Disciplines on these images are shown in corresponding language.
+
+<p align="center">
+    <img src="images/gpt_subject_zh.png" width="80%"> <br>
+</p>
+
+<p align="center">
+    <img src="images/gpt_subject_en.png" width="80%"> <br>
+</p>
+
+<p align="center">
+    <img src="images/gpt_subject_de.png" width="80%"> <br>
+</p>
+
+### Resolution of Images in M4U
+
+To verify auality of images provided in M4U, we visualized the distribution of diagonal pixels in the images. The median of diagonal pixels is 551, and the average is 616. The distribution is shown below.
+
+<p align="center">
+    <img src="images/resolution_sqrt.png" width="80%"> <br>
+</p>
 
 ## ✅ Cite
 

@@ -1,0 +1,65 @@
+[
+    {
+        "field": "science",
+        "language": "en",
+        "total": 1085,
+        "ncorrect": 480,
+        "acc": 0.4423963133640553
+    },
+    {
+        "field": "engineering",
+        "language": "en",
+        "total": 853,
+        "ncorrect": 361,
+        "acc": 0.4232121922626026
+    },
+    {
+        "field": "healthcare",
+        "language": "en",
+        "total": 1039,
+        "ncorrect": 584,
+        "acc": 0.5620789220404235
+    },
+    {
+        "field": "science",
+        "language": "zh",
+        "total": 1085,
+        "ncorrect": 509,
+        "acc": 0.46912442396313364
+    },
+    {
+        "field": "engineering",
+        "language": "zh",
+        "total": 853,
+        "ncorrect": 383,
+        "acc": 0.4490035169988277
+    },
+    {
+        "field": "healthcare",
+        "language": "zh",
+        "total": 1039,
+        "ncorrect": 582,
+        "acc": 0.5601539942252165
+    },
+    {
+        "field": "science",
+        "language": "de",
+        "total": 1085,
+        "ncorrect": 439,
+        "acc": 0.4046082949308756
+    },
+    {
+        "field": "engineering",
+        "language": "de",
+        "total": 853,
+        "ncorrect": 369,
+        "acc": 0.43259085580304807
+    },
+    {
+        "field": "healthcare",
+        "language": "de",
+        "total": 1039,
+        "ncorrect": 546,
+        "acc": 0.5255052935514918
+    }
+]

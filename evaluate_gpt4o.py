@@ -80,7 +80,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="gpt-4o")
     parser.add_argument("--field", type=str, default="all", help="['all', 'science', 'engineering', 'healthcare']")
-    parser.add_argument("--lang", type=str, default="all", help="['all', 'en', 'zh', 'de']")
+    parser.add_argument("--lang", type=str, default="['en', 'de']", help="['all', 'en', 'zh', 'de']")
     parser.add_argument("--seed", type=int, default=42, help="random seed")
     parser.add_argument("--result_folder", type=str, default="./gpt4o", help="")
     args = parser.parse_args()
