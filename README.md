@@ -56,13 +56,13 @@ Multilingual multimodal reasoning is a core component to achieve human-level int
     The detailed statistics of <b>M4U</b> dataset.
 </p>
 
-In this work, we introduce M4U, a novel and challenging benchmark for assessing the capability of multi-discipline multilingual multimodal understanding and reasoning. M4U contains 8,931 samples covering 64 disciplines of 16 subfields from Science, Engineering and Healthcare in Chinese, English and German.
+In this work, we introduce M4U, a novel and challenging benchmark for assessing the capability of multi-discipline multilingual multimodal understanding and reasoning. M4U contains 10005 samples covering 64 disciplines of 16 subfields from Science, Engineering and Healthcare.
 
 <p align="center">
     <img src="images/results.png" width="80%"> <br>
 </p>
 
-With M4U, we conduct extensive evaluations for 21 leading LMMs and LLMs with external tools. The evaluation results show that the state-of-the-art model, GPT-4o, only achieves 47.6\% average accuracy on M4U. Besides, we observe that the leading LMMs have significant language preferences.
+With M4U, we conduct extensive evaluations for 22 leading LMMs and 4 LLMs with external tools. The evaluation results show that the state-of-the-art model, GPT-4o, only achieves 47.6\% average accuracy on M4U. Besides, we observe that the leading LMMs have significant language preferences.
 
 <p align="center">
     <img src="images/cross_lingual.jpg" width="70%"> <br>
@@ -86,7 +86,7 @@ If you want to upload your model's results to the Leaderboard, please send an em
 
 The evaluation instructions are available at [🔮 Evaluations on M4U](https://github.com/M4U-Benchmark/M4U/tree/main?tab=readme-ov-file#-evaluations-on-m4u).
 
-### Leaderboard
+### Leaderboard on M4U
 
 | **#** | **Model**                       | **Method** | **Source**                                                   | **English** | **Chinese** | **German** | **Average** |
 | ----- | ------------------------------- | ---------- | ------------------------------------------------------------ | ----------- | ----------- | ---------  | ----------- |
@@ -114,7 +114,21 @@ The evaluation instructions are available at [🔮 Evaluations on M4U](https://g
 | 22     | YingVLM                         | LMM      | [LINK](https://huggingface.co/MMInstruction/YingVLM)         | 11.2        | 22.3        | 15.6       | 16.4        |
 | 23     | VisualGLM                       | LMM      | [LINK](https://huggingface.co/THUDM/visualglm-6b)            | 22.4        | 8.7         | 13.5       | 14.9        |
 
+### Leaderboard on M4U-mini
 
+| **#** | **Model**                       | **Method** | **Source**                                                   | **English** | **Chinese** | **German**  | **Japanese** | **Arabic** | **Thai** | **Average** |
+| ----- | ------------------------------- | ---------- | ------------------------------------------------------------ | ----------- | ----------- | ---------  | ----------- | ----------- | ---------   | ----------- |
+| 1     | GPT-4o     | LMM      | gpt-4o     | 44.9    | 53.7     | 42.4    | 49.1  | 45.2     | 48.8    | 47.3  |
+| 2     | InternVL2.5-26B     | LMM      | [LINK](https://huggingface.co/OpenGVLab/InternVL2_5-26B)|  44.2   | 51.3    | 48.1     | 46.4    | 37.6  | 47.3     | 44.2  |
+| 3     | Qwen2-VL-7B-Instruct     | LMM      | [LINK](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct)|  43.5   | 46.6    | 44.1     | 47.6    | 41.5  | 41.4     | 44.1  |
+| 4     | Gemini-1.5-Flash     | LMM      | gemini-1.5-flash |  35.4   | 46.3    | 42.8     | 39.0    | 38.4  | 40.1     | 40.3  |
+| 5     | InternVL2.5-8B     | LMM      | [LINK](https://huggingface.co/OpenGVLab/InternVL2_5-8B)|  41.7   | 38.5    | 38.3     | 36.1    | 31.4  | 31.7     | 36.3  |
+| 6     | LLaVA-NeXT-34B     | LMM      | [LINK](https://huggingface.co/liuhaotian/llava-v1.6-34b)|  44.1  | 44.2    | 39.0     | 36.0    | 11.4  | 34.0     | 34.8  |
+| 7     | Phi-3.5-Vision-Instruct     | LMM      | [LINK](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)|  34.3  | 27.2    | 33.4     | 30.4    | 31.7  | 30.9     | 31.3  |
+| 8     | DeepSeek-VL-Chat     | LMM      | [LINK](https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat)|  35.4  | 33.6    | 35.0     | 32.1    | 24.8  | 25.4     | 31.0  |
+| 9     | Qwen2.5-14B-Instruct     | Tool      | [LINK](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct)|  35.0  | 25.7    | 25.7     | 13.6    | 35.7  | 13.8     | 24.9  |
+| 10     | Qwen1.5-14B-Chat     | Tool      | [LINK](https://huggingface.co/Qwen/Qwen1.5-14B-Chat)|  28.9  | 17.7    | 29.5     | 19.3    | 26.9  | 12.0     | 22.4  |
+   
 
 - **Method types**
   -  **LMM :** Large Multimodal Model
